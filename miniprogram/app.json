@@ -1,0 +1,22 @@
+{
+	"pages": [
+		"pages/todo-list/todo-list"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "WeChat",
+		"navigationBarTextStyle": "black"
+	},
+	"networkTimeout": {
+		"request": 20000,
+		"connectSocket": 20000,
+		"uploadFile": 20000,
+		"downloadFile": 20000
+	},
+	"usingComponents": {
+		"add-todo-input": "components/add-todo-input/add-todo-input",
+		"mod": "components/mod/mod"
+	},
+	"sitemapLocation": "sitemap.json"
+}

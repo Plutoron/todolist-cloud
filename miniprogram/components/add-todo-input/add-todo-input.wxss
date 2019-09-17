@@ -1,0 +1,6 @@
+input{
+  width: 100%;
+  padding: 10rpx 10rpx;
+  border-bottom: 1px solid #DFDFDF;
+  color: cornflowerblue;
+}

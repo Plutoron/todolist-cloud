@@ -1,0 +1,70 @@
+page{
+  height: 100%;
+}
+
+.page{
+  padding: 30rpx;
+  height: 100%;
+}
+
+.block{
+  overflow-x: hidden; 
+}
+
+.item{
+  position: relative;
+  width: 690rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  box-sizing: border-box;
+}
+
+.item text{
+  display: inline-block;
+  width: 690rpx;
+  border-bottom: 1rpx solid fuchsia;
+  border-top: 1rpx solid fuchsia;
+}
+
+.item .btn{
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  text-decoration: unset;
+  margin: 0;
+}
+
+.item .btn-group{
+  position: absolute;
+  top: 10rpx;
+  right: -260rpx;
+  transition: all .4s ease-in-out;
+}
+  
+.item .btn-group .todo-btn,
+.item .btn-group .done-btn{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.item .btn-group .del-btn{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.item.checked .btn-group{
+  right: 0;
+}
+
+.todo{
+  color: cadetblue;
+}
+
+.done text{
+  color: cornflowerblue;
+  text-decoration: line-through;
+}
+
+.maxW90{
+	max-width: 90%;
+}

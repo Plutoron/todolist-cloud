@@ -1,0 +1,8 @@
+<view class="FBV FBJS"> 
+  <button 
+    type="primary" 
+    bindtap="_myClick"
+		class="fs24"
+  >组件内值 + 10</button>
+  <view>组件内的值：{{innerNum}}</view>
+</view>
